@@ -1,4 +1,4 @@
-# A website for e-books built with Asp.Net MVC5
+# Bookstore Management in ASP.NET MVC 5 
 + Windows 11
 + Visual Studio 2019
 + SQL Server Management Studio 18
@@ -87,3 +87,10 @@ INSERT INTO [dbo].[AspNetUserRoles](UserId, RoleId) VALUES ('2ffbf77e-63c3-4a18-
 
 INSERT INTO [dbo].[AspNetUserRoles](UserId, RoleId) VALUES ('2ffbf77e-63c3-4a18-9664-88fc967cf343', '386DCAC5-6AFC-4214-AA99-F186F1721C7D')
 ```
+
+# References
++ https://github.com/phanxuanchanh/aspnet-ebooks/
++ https://github.com/gtechsltn/aspnet-ebooks/
++ https://github.com/gtechsltn/BookStore-ASP.NET-5-Mvc/
++ https://github.com/gtechsltn/BookStoreMVC5/
++ https://www.youtube.com/watch?v=J5eICdblK3g
