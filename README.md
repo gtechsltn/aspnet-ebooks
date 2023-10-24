@@ -10,6 +10,9 @@
 + HTML, CSS, JavaScript
 + [Google Docs](https://docs.google.com/document/d/1MrG85vfEP8z_4rXdPEqtRSbv4vslUnvESuxBKp-D-Gk/)
 
+## Demo
++ https://ebooks.demo.phanxuanchanh.com
+
 ## Connection string using Windows Authentication
 ```
 <add name="DefaultConnection" connectionString="Data Source=(localdb)\ProjectsV13;Initial Catalog=SachDienTu;Integrated Security=SSPI;MultipleActiveResultSets=True;" providerName="System.Data.SqlClient" />
