@@ -9,3 +9,7 @@
 
 ## Send Mail
 + SMTP4Dev: Send Mail
+
+## Account
++ User: Admin
++ Pass: Abc@123$
