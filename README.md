@@ -18,5 +18,6 @@ INSERT INTO [dbo].[AspNetRoles](Id, [Name]) VALUES (NEWID(),  N'SEOer')
 ```
 
 ## Account
-+ User: Admin
++ User: nvmanhifi
++ Mail: nvmanhifi@gmail.com
 + Pass: Abc@123$
