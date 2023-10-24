@@ -12,6 +12,7 @@
 
 ## Send Mail
 + Account > Register
++ Account > Confirm by Email
 + SMTP4Dev: Send Mail
 
 ## Roles (Table: AspNetRoles)
@@ -23,7 +24,7 @@ INSERT INTO [dbo].[AspNetRoles](Id, [Name]) VALUES ('386DCAC5-6AFC-4214-AA99-F18
 
 ## Account (Table: AspNetUsers)
 + User: chien672001
-+ Mail: chien672001@gmail.com
++ Email: chien672001@gmail.com
 + Pass: Abc@123$
 
 ```
