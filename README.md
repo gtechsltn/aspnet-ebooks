@@ -51,11 +51,11 @@ INSERT INTO [dbo].[AspNetUsers]
            ,1
            ,N'ADvfagO8N+GTdDifEkP1cpIZeV2cFHY8H2Jeh1t1hhMR27JCCIp5WUJUJwqbuW3D6A=='
            ,N'58cf1eb0-43f6-4c87-9718-bb3b0c8a8070'
-           ,N'0982411958'
+           ,N'0868033257'
            ,1
            ,0
            ,GETDATE()
-           ,1
+           ,0
            ,0
            ,N'chien672001')
 ```
