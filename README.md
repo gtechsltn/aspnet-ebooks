@@ -2,6 +2,6 @@
 
 ## How to start
 + Create DB "**SachDienTu**" in Local DB
-+ Run \SachDienTu\SQL\**SachDienTu.sql**
++ Run **\SachDienTu\SQL\SachDienTu.sql**
 + Build solution success
 + F5 to start debugging
