@@ -10,6 +10,13 @@
 ## Send Mail
 + SMTP4Dev: Send Mail
 
+## Roles
+```
+INSERT INTO [dbo].[AspNetRoles](Id, [Name]) VALUES (NEWID(),  N'Super Admin')
+INSERT INTO [dbo].[AspNetRoles](Id, [Name]) VALUES (NEWID(),  N'Admin')
+INSERT INTO [dbo].[AspNetRoles](Id, [Name]) VALUES (NEWID(),  N'SEOer')
+```
+
 ## Account
 + User: Admin
 + Pass: Abc@123$
