@@ -10,8 +10,9 @@
 + HTML, CSS, JavaScript
 + [Google Docs](https://docs.google.com/document/d/1MrG85vfEP8z_4rXdPEqtRSbv4vslUnvESuxBKp-D-Gk/)
 
-## Demo
+## Demo and Video
 + https://ebooks.demo.phanxuanchanh.com
++ https://www.youtube.com/watch?v=J5eICdblK3g
 
 ## Connection string using Windows Authentication
 ```
@@ -96,4 +97,3 @@ INSERT INTO [dbo].[AspNetUserRoles](UserId, RoleId) VALUES ('2ffbf77e-63c3-4a18-
 + https://github.com/gtechsltn/aspnet-ebooks/
 + https://github.com/gtechsltn/BookStore-ASP.NET-5-Mvc/
 + https://github.com/gtechsltn/BookStoreMVC5/
-+ https://www.youtube.com/watch?v=J5eICdblK3g
