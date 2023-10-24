@@ -22,7 +22,7 @@ INSERT INTO [dbo].[AspNetRoles](Id, [Name]) VALUES ('16242CE0-95DD-4B5B-8133-7C1
 INSERT INTO [dbo].[AspNetRoles](Id, [Name]) VALUES ('386DCAC5-6AFC-4214-AA99-F186F1721C7D',  N'SEOer')
 ```
 
-## Account (Table: AspNetUsers)
+## Users (Table: AspNetUsers)
 + User: chien672001
 + Email: chien672001@gmail.com
 + Pass: Abc@123$
