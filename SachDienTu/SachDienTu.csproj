@@ -3029,13 +3029,6 @@
     <Content Include="Scripts\umd\popper.js" />
     <Content Include="Scripts\umd\popper.min.js" />
     <Content Include="SQL\SachDienTu.sql" />
-    <Content Include="Web.config" />
-    <Content Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </Content>
-    <Content Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </Content>
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Error.cshtml" />
@@ -3091,7 +3084,7 @@
     <Content Include="Views\Book\GetMyBooks.cshtml" />
     <Content Include="Views\Book\_MyBookListPartial.cshtml" />
     <Content Include="Views\Book\WatchOnline.cshtml" />
-    <Content Include="Web.config.example" />
+    <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

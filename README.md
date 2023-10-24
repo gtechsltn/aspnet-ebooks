@@ -1,4 +1,23 @@
 # A website for e-books built with Asp.Net MVC5
++ Windows 11
++ Visual Studio 2019
++ SQL Server Management Studio 18
++ SQL Server Express **LocalDB**
++ ASP.NET MVC 5
++ Entity Framework 6
++ [**SMTP4Dev**](https://github.com/rnwood/smtp4dev/)
++ [**SB Admin 2**](https://github.com/StartBootstrap/startbootstrap-sb-admin-2)
++ HTML, CSS, JavaScript
++ [Google Docs](https://docs.google.com/document/d/1MrG85vfEP8z_4rXdPEqtRSbv4vslUnvESuxBKp-D-Gk/)
+
+## Connection string using Windows Authentication
+```
+<add name="DefaultConnection" connectionString="Data Source=(localdb)\ProjectsV13;Initial Catalog=SachDienTu;Integrated Security=SSPI;MultipleActiveResultSets=True;" providerName="System.Data.SqlClient" />
+
+<add name="Installation" connectionString="Data Source=(localdb)\ProjectsV13;Initial Catalog=SachDienTu;Integrated Security=SSPI;MultipleActiveResultSets=True;" providerName="System.Data.EntityClient" />
+
+<add name="SachDienTuDBContext" connectionString="metadata=res://*/Models.SachDienTu.csdl|res://*/Models.SachDienTu.ssdl|res://*/Models.SachDienTu.msl;provider=System.Data.SqlClient;provider connection string=&quot;Data Source=(localdb)\ProjectsV13;Initial Catalog=SachDienTu;Integrated Security=SSPI;MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+```
 
 ## How to start
 + Create DB "**SachDienTu**" in Local DB
