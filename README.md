@@ -3,11 +3,16 @@
 ## How to start
 + Create DB "**SachDienTu**" in Local DB
 + Run **\SachDienTu\SQL\SachDienTu.sql**
++ Run script to create Roles (Table: AspNetRoles)
++ Run script to create Account (Table: AspNetUsers)
++ Run script to create UserRoles (Table: AspNetUserRoles)
 + Change connection string in web.config
 + Build solution success
 + F5 to start debugging
 
 ## Send Mail
++ Account > Register
++ Account > Login
 + SMTP4Dev: Send Mail
 
 ## Roles (Table: AspNetRoles)
