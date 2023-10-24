@@ -6,3 +6,6 @@
 + Change connection string in web.config
 + Build solution success
 + F5 to start debugging
+
+## Send Mail
++ SMTP4Dev: Send Mail
