@@ -12,7 +12,6 @@
 
 ## Send Mail
 + Account > Register
-+ Account > Login
 + SMTP4Dev: Send Mail
 
 ## Roles (Table: AspNetRoles)
