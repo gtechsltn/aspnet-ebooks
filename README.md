@@ -8,7 +8,37 @@
 + [**SMTP4Dev**](https://github.com/rnwood/smtp4dev/)
 + [**SB Admin 2**](https://github.com/StartBootstrap/startbootstrap-sb-admin-2)
 + HTML, CSS, JavaScript
-+ [Google Docs](https://docs.google.com/document/d/1MrG85vfEP8z_4rXdPEqtRSbv4vslUnvESuxBKp-D-Gk/)
++ [PLAN: Google Sheets](https://docs.google.com/spreadsheets/d/1ytUTc-IhOv2U19rmXv8X9mRTbE-dnBlmuV9JuYZM9Tc/)
++ [Guide: Google Docs](https://docs.google.com/document/d/1MrG85vfEP8z_4rXdPEqtRSbv4vslUnvESuxBKp-D-Gk/)
++ ConsoleApp1_GenCodeSample
++ ConsoleApp2_DownloadLinks
+
+## Download HTML Source (link)
+```
+
+static void Main(string[] args)
+{
+    MainAsync(args).GetAwaiter().GetResult();
+}
+
+static async Task MainAsync(string[] args)
+{
+    string htmlSource = string.Empty;
+    string url = "https://stackoverflow.com/questions/41778074/how-to-get-html-page-source-by-c-sharp";
+    using (HttpClient client = new HttpClient())
+    {
+	    using (HttpResponseMessage response = await client.GetAsync(url))
+	    {
+		    using (HttpContent content = response.Content)
+		    {
+			    htmlSource = await content.ReadAsStringAsync();
+			    File.WriteAllText(realPath, htmlSource, Encoding.UTF8);
+		    }
+	    }
+    }
+}
+
+```
 
 ## Connection string using Windows Authentication
 ```
